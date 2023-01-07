@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap');
+
+* {
+    font-family: 'Do Hyeon', sans-serif;
+}
+
+html {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.title {
+    color: white;
+    background-color: tomato;
+    margin: auto auto;
+    font-size: 24px;
+    padding: 4px 14px;
+    border-radius: 8px;
+}
+
+.bg {
+    width: 360px;
+    background-image: url("../img/bg-grid.png");
+}
+
+.msg {
+    font-weight: bold;
+}
+
+.bucket {
+    width: 160px;
+    height: 160px;
+    background-size: cover;
+    background-position: center;
+    margin: 8px;
+    position: relative;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+    word-break: keep-all;
+}
+
+.img1 {
+    background-image: url("../img/bucket-red.png");
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.img2 {
+    background-image: url("../img/bucket-lightred.png");
+    background-size: cover;
+    background-position: center;
+    color: tomato;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
